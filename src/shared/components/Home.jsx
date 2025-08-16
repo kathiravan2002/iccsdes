@@ -89,7 +89,7 @@ function Home() {
                     <div className=" text-white p-10 min-h-[100px] flex flex-col items-center justify-center relative -right-1 bg-gradient-to-b from-[#C4292C] to-[#5E1415]  clip-left" >
                         <div className="text-center flex gap-2 items-center justify-center">
 
-                            <p className="flex-50 poppins-bold lg:text-[94px] md:text-[45px]">12</p>
+                            <p className="flex-50 poppins-bold lg:text-[94px] md:text-[45px]">10</p>
                             <div className="">
                                 <p className="text-white namdhinggo-bold lg:text-[20px]  text-[16px] text-start">July, 2025</p>
                                 <p className="text-white namdhinggo-bold lg:text-[18px]  text-[12px] text-start leading-tight">Paper Submission Deadline</p>
@@ -100,7 +100,7 @@ function Home() {
                     <div className=" text-white p-10 min-h-[100px] flex flex-col items-center justify-center relative bg-gradient-to-t from-[#C4292C] to-[#5E1415] clip-right">
                         <div className="text-center flex gap-2 items-center justify-center">
 
-                            <p className="flex-50 poppins-bold lg:text-[94px] md:text-[45px]">10</p>
+                            <p className="flex-50 poppins-bold lg:text-[94px] md:text-[45px]">18</p>
                             <div className="">
                                 <p className="text-white namdhinggo-bold lg:text-[20px]  text-[16px] text-start">December, 2025</p>
                                 <p className="text-white namdhinggo-bold lg:text-[18px]  text-[12px] text-start leading-tight">Author Acceptance Notification</p>
@@ -122,7 +122,7 @@ function Home() {
                     <div className=" text-white p-10 min-h-[100px] flex flex-col items-center justify-center relative  right-2 bg-gradient-to-t from-[#C4292C] to-[#5E1415] clip-right">
                         <div className="text-center flex gap-2 items-center justify-center">
 
-                            <p className="flex-50 poppins-bold lg:text-[94px] md:text-[45px]">30</p>
+                            <p className="flex-50 poppins-bold lg:text-[94px] md:text-[45px]">24</p>
                             <div className="">
                                 <p className="text-white namdhinggo-bold lg:text-[20px]  text-[16px] text-start">December, 2025</p>
                                 <p className="text-white namdhinggo-bold lg:text-[18px]  md:text-[12px] text-[14px] text-start leading-tight">Registration Deadline</p>
