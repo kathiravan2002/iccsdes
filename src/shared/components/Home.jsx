@@ -36,7 +36,7 @@ function Home() {
             <div className="relative sm:h-screen bg-cover " style={{ backgroundImage: "url('/assets/images/homehero.png')" }}>
 
                 <div className="absolute inset-0 bg-[#000000] sm:h-screen opacity-65"></div>
-                <div className="relative max-w-[1100px] mx-auto flex flex-col  justify-center h-full space-y-5 py-5 px-4 pt-36 sm:pt-0">
+                <div className="relative max-w-[1100px] mx-auto flex flex-col  justify-center h-full space-y-5 py-5 px-4 pt-36 sm:pt-7 xl:pt-0">
                     <div className="flex  flex-col md:flex-row max-w-[700px] mx-auto gap-5 md:gap-10 ">
                         <h1 className="inter-semibold lg:text-xl flex items-center gap-5 text-white "><BsCalendar2RangeFill className='text-2xl text-[#C4292C] flex shrink-0' />30th December, 2025</h1>
                         <h2 className="inter-semibold lg:text-xl flex items-center gap-5 text-white "><FaLocationDot className='text-2xl text-[#C4292C] flex shrink-0' />Wuhan, China</h2>
@@ -85,7 +85,7 @@ function Home() {
                 </div>
             </div>
             <div className="md:block hidden">
-                <div className="absolute left-1/2 -translate-x-1/2 lg:-translate-y-31 -translate-y-23 flex justify-center items-stretch  max-w-[1400px] w-full mx-auto px-4 xl:px-0">
+                <div className="absolute left-1/2 -translate-x-1/2 xl:-translate-y-31 -translate-y-20 flex justify-center items-stretch  max-w-[1400px] w-full mx-auto px-4 xl:px-0">
                     <div className=" text-white p-10 min-h-[100px] flex flex-col items-center justify-center relative -right-1 bg-gradient-to-b from-[#C4292C] to-[#5E1415]  clip-left" >
                         <div className="text-center flex gap-2 items-center justify-center">
 
