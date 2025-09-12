@@ -1,4 +1,5 @@
 import React from 'react'
+import Marquee from 'react-fast-marquee';
 import { BsCalendar2RangeFill } from 'react-icons/bs';
 import { FaArrowRightLong, FaLocationDot } from 'react-icons/fa6';
 import { GoDotFill } from 'react-icons/go';
@@ -30,6 +31,24 @@ function Home() {
         //     title: "Blockchain and Decentralized Technologies",
         //     content: "Study the underlying principles of blockchain, its applications in secure transactions, smart contracts, and decentralized finance, along with emerging decentralized web technologies."
         // }
+    ];
+
+
+
+
+
+    const imageItems = [
+        { src: '/assets/images/associates/1.png', },
+        { src: '/assets/images/associates/2.jpg', },
+        { src: '/assets/images/associates/3.jpg', },
+        { src: '/assets/images/associates/4.jpg', },
+        { src: '/assets/images/associates/5.jpg', },
+        { src: '/assets/images/associates/6.jpg', },
+        { src: "/assets/images/associates/scopus.png", },
+        { src: "/assets/images/associates/8.jpg", },
+        { src: "/assets/images/associates/9.jpg", },
+        { src: "/assets/images/associates/10.jpg", },
+        { src: "/assets/images/associates/11.jpg", },
     ];
     return (
         <div >
@@ -131,7 +150,7 @@ function Home() {
                     </div>
                 </div>
             </div>
-             <div className="block md:hidden bg-[#FFD7D8] overflow-hidden">
+            <div className="block md:hidden bg-[#FFD7D8] overflow-hidden">
                 <div className=" flex flex-col justify-center items-stretch  max-w-[1400px] w-full mx-auto px-4 xl:px-0" >
                     <div className=" text-white p-10 min-h-[100px] flex flex-col items-center justify-center relative  bg-gradient-to-b from-[#C4292C] to-[#5E1415]  clip-left" data-aos="fade-right" data-aos-delay="300" data-aos-duration="1000">
                         <div className="text-center flex gap-2 items-center justify-center">
@@ -178,7 +197,7 @@ function Home() {
                     </div>
                 </div>
             </div>
-            <section className="bg-[#FFD7D8]">
+            <section className="">
                 <div className="  2xl:px-0 px-4 lg:py-20 py-10  ">
                     <div className="flex lg:flex-row flex-col items-center justify-center gap-0 lg:gap-10 max-w-[1400px] mx-auto md:mt-25">
                         <div className="  max-w-[565px] mx-auto lg:block hidden">
@@ -222,7 +241,8 @@ function Home() {
                 </div>
             </section>
 
-            <section className="">
+
+            <section className="bg-[#FFD7D8]">
                 <div className="  2xl:px-0 px-4 lg:py-20 py-10  ">
                     <div className="flex lg:flex-row flex-col items-center justify-center gap-0 lg:gap-10 max-w-[1400px] mx-auto ">
 
@@ -260,8 +280,23 @@ function Home() {
                 </div>
             </section>
 
+            <div className="max-w-[1600px] mx-auto">
+                <div className=" pt-10 space-y-10   px-4">
+                    <h2 className="2xl:text-[32px] xl:text-[28px] lg:text-[28px] text-[28px] namdhinggo-extrabold text-[#C4292C]  text-center ">Indexed Journals</h2>
+                    <p className="text-center inter-medium opacity-85 text-[18px] leading-[30px] max-w-[1000px] mx-auto">The Selective accepted papers of our International Conference on Computer Science and Digital Ecosystems Summit will be recommended to publish in the following index & publisher Journals.</p>
+                </div>
+                <Marquee direction='right' gradient pauseOnClick pauseOnHover>
+                    <div className="  flex  pb-10 pt-10 ">
+                        {imageItems.map((item, index) => (
+                            <div key={index} className=" flex justify-center mr-10  py-5" >
+                                <img src={item.src} alt="images" className=" w-[300px] rounded-lg shadow-[0_0_8px_rgba(0,0,0,0.15)] hover:shadow-[0_0_20px_rgba(0,0,0,0.15)] transition duratiom-300" />
+                            </div>
+                        ))}
+                    </div>
+                </Marquee>
 
-           
+            </div>
+
         </div>
     )
 }
