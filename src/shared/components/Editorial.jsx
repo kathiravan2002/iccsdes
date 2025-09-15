@@ -34,9 +34,9 @@ function Editorial() {
             country: "China"
         },
         {
-            name: "Dr.  Huiliang Zhao",
-            university: "Guizhou minzu University",
-            expertise: " Department of product design",
+            name: "Dr.  Sunjieyu Wang",
+            university: "The Third Research Institute of Ministry of Public Security",
+            expertise: " Department of Computer Science",
             country: "China"
         },
     ]
