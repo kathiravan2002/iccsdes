@@ -280,12 +280,12 @@ function Home() {
                 </div>
             </section>
 
-            <div className="max-w-[1600px] mx-auto">
-                <div className=" pt-10 space-y-10   px-4">
+            <div className="max-w-[1400px] mx-auto">
+                <div className=" pt-10   px-4">
                     <h2 className="2xl:text-[32px] xl:text-[28px] lg:text-[28px] text-[28px] namdhinggo-extrabold text-[#C4292C]  text-center ">Indexed Journals</h2>
-                    <p className="text-center inter-medium opacity-85 text-[18px] leading-[30px] max-w-[1000px] mx-auto">The Selective accepted papers of our International Conference on Computer Science and Digital Ecosystems Summit will be recommended to publish in the following index & publisher Journals.</p>
+                    <p className="text-center inter-medium opacity-85 text-[18px] leading-[30px] max-w-[1000px] mx-auto mt-4">The Selective accepted papers of our International Conference on Computer Science and Digital Ecosystems Summit will be recommended to publish in the following index & publisher Journals.</p>
                 </div>
-                <Marquee direction='right' gradient pauseOnClick pauseOnHover>
+                <Marquee direction='right'  pauseOnClick pauseOnHover>
                     <div className="  flex  pb-10 pt-10 ">
                         {imageItems.map((item, index) => (
                             <div key={index} className=" flex justify-center mr-10  py-5" >
